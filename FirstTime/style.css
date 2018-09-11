@@ -1,0 +1,35 @@
+body{
+  background-color: #EEE;
+}
+
+#container{
+  background-color: white;
+  width: 800px;
+  margin-left: auto //centers the text, only works horizontally not vertically
+  margin-right: auto
+}
+
+#header{
+  background-color: #66CCFF;
+  color: white; //text color
+  text-align: center;
+}
+
+#content{
+  padding: 10px 10px 10px 10px; //denotes padding for top, right, bottom, left
+  //can also just say: 'padding: 10px'
+}
+
+#nav{
+  width: 180px;
+  float: left;
+}
+
+#main{
+  width: 600px;
+  float: right;
+}
+
+#footer{
+  text-align: center;
+}
